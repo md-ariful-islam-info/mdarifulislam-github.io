@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Ariful Islam | Executive Naval Architect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #008080; /* Teal from your CV */
+            --dark: #2E2E2E;
+            --light: #666666;
+            --bg: #f4f7f6;
+        }
+
+        * { box-sizing: border-box; font-family: 'Lato', sans-serif; }
+        body { background: var(--bg); margin: 0; color: var(--dark); line-height: 1.6; }
+
+        .container { display: flex; flex-wrap: wrap; max-width: 1100px; margin: 20px auto; background: white; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+
+        /* Sidebar */
+        .sidebar { flex: 1; min-width: 300px; background: #fff; padding: 40px; border-right: 1px solid #eee; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; background: #ddd; margin-bottom: 20px; object-fit: cover; border: 3px solid var(--primary); }
+        h1 { color: var(--primary); margin: 0; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; }
+        .tagline { color: var(--light); font-weight: bold; margin-bottom: 30px; display: block; }
+        
+        .info-item { margin-bottom: 15px; font-size: 14px; }
+        .info-item i { color: var(--primary); width: 25px; }
+        .info-item a { color: var(--dark); text-decoration: none; }
+
+        /* Main Content */
+        .main { flex: 2; min-width: 400px; padding: 40px; }
+        .section-title { color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 5px; text-transform: uppercase; margin-top: 30px; }
+        
+        .event { margin-bottom: 25px; position: relative; }
+        .event-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .job-title { font-weight: bold; color: var(--dark); font-size: 18px; }
+        .company { color: var(--primary); font-weight: bold; }
+        .date { font-size: 13px; color: var(--light); font-style: italic; }
+        .location { font-size: 12px; color: var(--light); display: block; margin-bottom: 8px; }
+
+        ul { padding-left: 18px; color: var(--light); font-size: 14px; }
+        li { margin-bottom: 8px; }
+
+        @media (max-width: 768px) {
+            .container { margin: 0; }
+            .sidebar { border-right: none; border-bottom: 5px solid var(--primary); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <aside class="sidebar">
+        <h1>Md Ariful Islam</h1>
+        <span class="tagline">Executive Engineer | Naval Architect</span>
+        
+        <div class="info-item"><i class="fas fa-envelope"></i> <a href="mailto:arif.engr1985@gmail.com">arif.engr1985@gmail.com</a></div>
+        <div class="info-item"><i class="fas fa-phone"></i> +8801624-797833</div>
+        <div class="info-item"><i class="fas fa-map-marker-alt"></i> Khulna, Bangladesh</div>
+        <div class="info-item"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/md-ariful-islam-647b85255">LinkedIn Profile</a></div>
+
+        <h3 class="section-title">Skills</h3>
+        <ul>
+            <li>Maxsurf / AVEVA / TRIBON</li>
+            <li>Stability & Hydrostatics</li>
+            <li>Project Planning & Scheduling</li>
+            <li>Quality Control & Inspection</li>
+            <li>Technical Specification Writing</li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <h2 class="section-title">Experience (15 Years)</h2>
+
+        <div class="event">
+            <div class="event-header">
+                <span class="job-title">Executive Engineer (Design & Planning)</span>
+                <span class="date">2015 ‑ Present</span>
+            </div>
+            <span class="company">Khulna Shipyard Limited</span>
+            <ul>
+                <li>Oversee project planning, scheduling, and execution for timely completion.</li>
+                <li>Coordinate with clients, Suppliers, and Classification societies.</li>
+                <li>Lead design teams for marine vessel engineering and stability analysis.</li>
+                <li>Manage quality control inspectors to ensure contract specifications are met.</li>
+            </ul>
+        </div>
+
+        <div class="event">
+            <div class="event-header">
+                <span class="job-title">Deputy Manager (Design)</span>
+                <span class="date">2014 ‑ 2015</span>
+            </div>
+            <span class="company">Western Marine Shipyard Ltd</span>
+            <ul>
+                <li>3D hull modeling and analysis (hydrostatics, stability, resistance) using Maxsurf.</li>
+                <li>Production design of Ship’s Hull per classification society rules.</li>
+            </ul>
+        </div>
+
+        <div class="event">
+            <div class="event-header">
+                <span class="job-title">Assistant Manager (Design)</span>
+                <span class="date">2012 ‑ 2013</span>
+            </div>
+            <span class="company">FMC Dockyard</span>
+            <ul>
+                <li>Review of basic design and coordination with designers and class societies.</li>
+                <li>Material tracking, labor monitoring, and troubleshooting mechanical issues.</li>
+            </ul>
+        </div>
+
+        <h2 class="section-title">Education</h2>
+        <p><strong>B.Sc. in Naval Architecture & Marine Engineering</strong><br>
+        Bangladesh University of Engineering and Technology (BUET)</p>
+    </main>
+</div>
+
+</body>
+</html>
